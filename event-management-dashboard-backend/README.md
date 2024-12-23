@@ -271,11 +271,17 @@ This repository contains the backend for the Event Management Dashboard. It prov
    app.use('/api/events', authMiddleware);
 
 
-## Setup Steps
+### Backend Setup:
+```bash
+cd event-management-dashboard-backend
+npm install
+nodemon server.js
+```
 
-1. **Clone the repository:**
-
-   First, clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/event-management-dashboard-backend.git
-   cd event-management-dashboard-backend
+### Environment Variables:
+Create a `.env` file in the backend folder with the following keys:( I have pushed the .env file into git for easy access, I know its bad)
+```
+MONGODB_URI=mongodb+srv://soorajnp:soorajbond2003@cluster0.qu5h6.mongodb.net/eventManagementDb?retryWrites=true&w=majority&appName=Cluster0
+PORT=5000
+JWT_SECRET=secret
+```

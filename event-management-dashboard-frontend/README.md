@@ -47,7 +47,7 @@ Follow these steps to set up and run the frontend application:
 The application will run on `http://localhost:3000/` by default.
 
 
-```
+
 
 ## Folder Structure
 

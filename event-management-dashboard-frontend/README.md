@@ -46,11 +46,7 @@ Follow these steps to set up and run the frontend application:
 
 The application will run on `http://localhost:3000/` by default.
 
-## Environment Variables
 
-Ensure you have the required environment variables set up in a `.env` file:
-```
-REACT_APP_API_URL=http://localhost:5000/api
 ```
 
 ## Folder Structure

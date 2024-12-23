@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Event Management Dashboard - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This document provides an overview of the frontend application of the Event Management Dashboard, including the libraries and components used, along with steps to set up the project.
 
-## Available Scripts
+## Libraries and Frameworks Used
 
-In the project directory, you can run:
+- **React**: A JavaScript library for building user interfaces.
+- **React Router**: For routing and navigation within the application.
+- **Axios**: To make HTTP requests to the backend API.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **Redux**: For state management across the application.
+- **Formik**: For form handling and validation.
+- **Yup**: Schema validation library used with Formik.
 
-### `npm start`
+## Key Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Login Component**: Handles user authentication.
+- **Dashboard Component**: Displays event statistics and analytics.
+- **Event List Component**: Lists all available events.
+- **Event Details Component**: Shows detailed information about a specific event.
+- **Form Component**: Allows users to create or edit events.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions
 
-### `npm test`
+Follow these steps to set up and run the frontend application:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/event-management-dashboard.git
+   ```
 
-### `npm run build`
+2. **Navigate to the frontend directory:**
+   ```bash
+   cd event-management-dashboard-frontend
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Start the development server:**
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The application will run on `http://localhost:3000/` by default.
 
-### `npm run eject`
+## Environment Variables
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Ensure you have the required environment variables set up in a `.env` file:
+```
+REACT_APP_API_URL=http://localhost:5000/api
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Folder Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **/src**: Source code folder.
+- **/src/components**: Reusable React components.
+- **/src/pages**: Page-level components.
+- **/src/redux**: Redux store, actions, and reducers.
+- **/src/utils**: Utility functions and helpers.
+- **/public**: Static files.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Build for Production
 
-## Learn More
+To create an optimized production build:
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This will generate a `build/` folder with the production-ready files.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contribution
 
-### Code Splitting
+Feel free to fork the repository and submit pull requests for improvements.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.

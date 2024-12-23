@@ -98,7 +98,7 @@ JWT_SECRET=secret
 
 Feel free to contribute, raise issues, or share feedback!
 
-📧 **Contact:** [sooraj@example.com](mailto:sooraj@example.com)
+📧 **Contact:** [soorajnp.nelamangala@gmail.com](mailto:soorajnp.nelamangala@gmail.com)
 
 🌟 **If you like this project, consider giving it a star on GitHub!** ⭐️
 
